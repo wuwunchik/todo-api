@@ -1,0 +1,9 @@
+POST http://127.0.0.1:8000/api/tasks/ HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer 2|3ecTliVeuNVfVfg7wsIcrCJAVJCkdNO9T0YN2npr9d398791
+
+{
+  "title": "Название задачи",
+  "description": "Описание задачи",
+  "status": "pending"
+}
